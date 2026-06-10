@@ -154,7 +154,7 @@ btn_check = tk.Button(ventana, text=traducciones[idioma_actual]["boton"],
                       font=("Courier", 12, "bold"), height=2, width=22)
 btn_check.pack(pady=15)
 
-# BOTÓN TRAMPA (Idea 3)
+# BOTÓN TRAMPA
 btn_pagar = tk.Button(ventana, text=traducciones[idioma_actual]["pagar"], 
                       command=pagar_rescate, bg="black", fg="yellow", 
                       font=("Courier", 10, "italic"), relief="flat")
